@@ -523,36 +523,6 @@
   z-index: 9;
 }
 
-.feature-circle-inner {
-  display: inline-block;
-  width: 20px;
-  height: 20px;
-  text-align: center;
-  line-height: 20px;
-  background-color: #fff;
-  border-radius: 50%;
-  position: relative;
-}
-.feature-circle-inner:before {
-  content: "";
-  position: absolute;
-  z-index: 0;
-  left: 50%;
-  top: 50%;
-  transform: translateX(-50%) translateY(-50%);
-  display: block;
-  width: 30px;
-  height: 30px;
-  background: #fff;
-  border-radius: 50%;
-  animation: pulse-border 1500ms ease-out infinite;
-  z-index: -9;
-}
-.feature-circle-inner i {
-  font-size: 12px;
-  font-weight: 900;
-  color: #0250c5;
-}
 
 .discount-circle-inner {
   display: inline-block;
@@ -867,7 +837,7 @@ select:focus {
   color: #242424;
 }
 .navigation .navbar .navbar-brand img {
-  max-width: 290px;
+  max-width: 200px;
   filter: brightness(0) invert(1);
 }
 .navigation .navbar #mainmenu ul .nav-item .nav-link {
