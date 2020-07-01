@@ -244,7 +244,7 @@
         margin-bottom: 54px;
     }
     .feature {
-        padding: 100px 0px 88px;
+        padding: 100px 0px 40px;
     }
     .dealofweek .deal-slider-area .content .left-area img{
         margin-bottom: 50px;
@@ -256,10 +256,10 @@
         margin-bottom: 18px;
     }
     .faq {
-        padding: 100px 0px 100px;
+        padding: 50px 0px 50px;
     }
     .contact {
-        padding: 100px 0px 100px;
+        padding: 50px 0px 50px;
     }
     .dealofweek .deal-slider-area .content .right-area{
         text-align: center;
@@ -440,7 +440,7 @@
         flex: 100%;
     }
     .hero-area {
-        padding: 160px 0px 94px;
+        padding: 160px 0px 50px;
     }
     .hero-area .left-content .content .title {
         font-size: 30px;
