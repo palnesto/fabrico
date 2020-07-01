@@ -244,8 +244,8 @@
 }
 
 .mybtn-bg {
-  background: #EA384D;
-  border-color: #EA384D;
+  background: #32bda4;
+  border-color: #32bda4;
   color: #fff;
 }
 
@@ -254,7 +254,7 @@
 }
 
 .mybtn-bg:hover span {
-  color: #EA384D;
+  color: #32bda4;
 }
 
 .mybtn-light {
@@ -263,7 +263,7 @@
 
 .mybtn-light:before,
 .mybtn-light:after {
-  background: #EA384D;
+  background: #32bda4;
 }
 
 .mybtn-light:hover span {
@@ -271,21 +271,21 @@
 }
 
 .mybtn-light span {
-  color: #EA384D;
+  color: #32bda4;
 }
 
 .mybtn-bord {
   background: transparent;
-  border: 1px solid #EA384D;
+  border: 1px solid #32bda4;
 }
 
 .mybtn-bord:before,
 .mybtn-bord:after {
-  background: #EA384D;
+  background: #32bda4;
 }
 
 .mybtn-bord:hover {
-  border-color: #EA384D;
+  border-color: #32bda4;
 }
 
 .mybtn-bord:hover span {
@@ -982,7 +982,7 @@ select:focus {
 ** About Area Start
 ---------------------------*/
 .about {
-  padding: 110px 0px 120px;
+  padding-top: 110px ;
   position: relative;
 }
 .about .left-shape2 {
@@ -2822,8 +2822,8 @@ select:focus {
   height: 100%;
   top: 0px;
   left: 0px;
-  background: #D31027;
-  background: linear-gradient(to right, #EA384D, #D31027);
+  background: #256f62;
+  background: linear-gradient(to right, #32bda4, #256f62);
   border-radius: 0px 0px 300px 0px;
 }
 .body .hero-area .shape {
@@ -2845,8 +2845,8 @@ select:focus {
   }
 }
 .body .hero-area .discount-circle-inner {
-  background: #D31027;
-  background: linear-gradient(to right, #EA384D, #D31027);
+    background: #D31027;
+    background: linear-gradient(to right, #EA384D, #D31027);
 }
 .body .about {
   position: relative;
@@ -2858,14 +2858,14 @@ select:focus {
   border-radius: 30px 0px 30px 0px;
 }
 .body .about .box .inner-box .icon i {
-  background: #D31027;
-  background: linear-gradient(to right, #EA384D, #D31027);
+  background: #256f62;
+  background: linear-gradient(to right, #32bda4, #256f62);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .body .about .box::after {
-  background: #D31027;
-  background: linear-gradient(to right, #EA384D, #D31027);
+  background: #256f62;
+  background: linear-gradient(to right, #32bda4, #256f62);
   opacity: 1;
   width: 100%;
   height: 0%;
@@ -2901,8 +2901,8 @@ select:focus {
   height: 100%;
   top: 0px;
   left: 0px;
-  background: #D31027;
-  background: linear-gradient(to right, #EA384D, #D31027);
+  background: #256f62;
+  background: linear-gradient(to right, #32bda4, #256f62);
   border-radius: 200px 0px 200px 0px;
 }
 .body .whaybest .shape {
@@ -2927,8 +2927,8 @@ select:focus {
   color: #fff;
 }
 .body .feature .feature-box .icon-area .icon i {
-  background: #D31027;
-  background: linear-gradient(to right, #EA384D, #D31027);
+  background: #32bda4;
+background: linear-gradient(to right, #32bda4, #256f62);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -2944,8 +2944,8 @@ select:focus {
   height: 100%;
   top: 0px;
   left: 0px;
-  background: #D31027;
-  background: linear-gradient(to right, #EA384D, #D31027);
+  background: #256f62;
+  background: linear-gradient(to right, #32bda4, #256f62);
   border-radius: 200px 0px 200px 0px;
 }
 .body .dealofweek .shape {
@@ -2965,8 +2965,8 @@ select:focus {
   box-shadow: 0px 0px 0px 10px rgba(255, 255, 255, 0.219), 0px 0px 0px 20px rgba(255, 255, 255, 0.219), 0px 0px 0px 30px rgba(255, 255, 255, 0.219);
 }
 .body .pricing .product-slider .owl-controls .owl-nav div:hover {
-  background: #D31027;
-  background: linear-gradient(to right, #EA384D, #D31027);
+  background: #256f62;
+  background: linear-gradient(to right, #32bda4, #256f62);
 }
 .body .video {
   position: relative;
@@ -2980,8 +2980,8 @@ select:focus {
   height: 100%;
   top: 0px;
   left: 0px;
-  background: #D31027;
-  background: linear-gradient(to right, #EA384D, #D31027);
+  background: #256f62;
+  background: linear-gradient(to right, #32bda4, #256f62);
   border-radius: 200px 0px 200px 0px;
 }
 .body .video .shape {
@@ -3000,8 +3000,8 @@ select:focus {
 .body .video .video-play-btn i,
 .body .video .fun-box .inner-content2 .icon i,
 .body .video .fun-box .inner-content3 .icon i {
-  background: #D31027;
-  background: linear-gradient(to right, #EA384D, #D31027);
+  background: #256f62;
+  background: linear-gradient(to right, #32bda4, #256f62);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -3017,8 +3017,8 @@ select:focus {
   height: 100%;
   top: 0px;
   left: 0px;
-  background: #D31027;
-  background: linear-gradient(to right, #EA384D, #D31027);
+  background: #256f62;
+  background: linear-gradient(to right, #32bda4, #256f62);
   border-radius: 200px 0px 200px 0px;
 }
 .body .testimonial-area .shape {
@@ -3042,12 +3042,12 @@ select:focus {
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
 }
 .body .testimonial-area .testimonial-slider .owl-controls .owl-nav div:hover {
-  background: #D31027;
-  background: linear-gradient(to right, #EA384D, #D31027);
+  background: #256f62;
+  background: linear-gradient(to right, #32bda4, #256f62);
 }
 .body .testimonial-area .testimonial-slider .client .client-image::after {
-  background: #D31027;
-  background: linear-gradient(to right, #EA384D, #D31027);
+  background: #256f62;
+  background: linear-gradient(to right, #32bda4, #256f62);
 }
 .body .subscribe-section .download-buttons {
   margin-top: 55px;
@@ -3059,8 +3059,8 @@ select:focus {
   line-height: 26px;
 }
 .body .subscribe-section .download-buttons a {
-  background: #D31027;
-  background: linear-gradient(to right, #EA384D, #D31027);
+  background: #256f62;
+  background: linear-gradient(to right, #32bda4, #256f62);
   display: inline-block;
   padding: 18px 30px;
   font-size: 18px;
@@ -3072,9 +3072,9 @@ select:focus {
   font-size: 24px;
 }
 .body .subscribe-section .newsletter-form-area button {
-  background: #D31027;
-  background: linear-gradient(to right, #EA384D, #D31027);
-  cursor: pointer;
+background: #D31027;
+      background: linear-gradient(to right, #32bda4, #256f62);
+    cursor: pointer;
 }
 .body .faq {
   position: relative;
@@ -3088,8 +3088,8 @@ select:focus {
   height: 100%;
   top: 0px;
   left: 0px;
-  background: #D31027;
-  background: linear-gradient(to right, #EA384D, #D31027);
+  background: #256f62;
+  background: linear-gradient(to right, #32bda4, #256f62);
   border-radius: 200px 0px 200px 0px;
   z-index: -1;
 }
@@ -3110,8 +3110,8 @@ select:focus {
   display: none;
 }
 .body .contact .info-box .left .icon i {
-  background: #D31027;
-  background: linear-gradient(to right, #EA384D, #D31027);
+  background: #256f62;
+  background: linear-gradient(to right, #32bda4, #256f62);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -3120,8 +3120,8 @@ select:focus {
   animation: shapeani2 10s linear infinite;
 }
 .body .footer {
-  background: #D31027;
-  background: linear-gradient(to right, #EA384D, #D31027);
+  background: #256f62;
+  background: linear-gradient(to right, #32bda4, #256f62);
 }
 .body .footer .footer-info-area .text p,
 .body .footer .copy-bg p,
@@ -3129,14 +3129,14 @@ select:focus {
   color: #fff;
 }
 .body .bottomtotop i {
-  background: #D31027;
-  background: linear-gradient(to right, #EA384D, #D31027);
+    background: #D31027;
+    background: linear-gradient(to right, #EA384D, #D31027);
 }
 .body .compare-section .compare-table .price,
 .body .pricing .product-slider .item .single-product .content .price .new-price,
 .body .dealofweek .deal-slider-area .content .right-area .price p span {
-  background: #D31027;
-  background: linear-gradient(to right, #EA384D, #D31027);
+  background: #256f62;
+  background: linear-gradient(to right, #32bda4, #256f62);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -3148,20 +3148,20 @@ select:focus {
   filter: brightness(0) invert(1);
 }
 .body .navigation .navbar #mainmenu ul .nav-item.dropdown:hover .dropdown-menu .dropdown-item:hover {
-  background: #D31027;
-  background: linear-gradient(to right, #EA384D, #D31027);
+  background: #256f62;
+  background: linear-gradient(to right, #32bda4, #256f62);
 }
 .body .preloader-inner {
-  background: #D31027;
-  background: linear-gradient(to right, #EA384D, #D31027);
+  background: #256f62;
+  background: linear-gradient(to right, #32bda4, #256f62);
 }
 .body .navigation.stiky-nav .navbar #mainmenu ul .nav-item .nav-link:hover::before, .body .navigation.stiky-nav .navbar #mainmenu ul .nav-item .nav-link.active::before {
-  background: #D31027;
-  background: linear-gradient(to right, #EA384D, #D31027);
+  background: #256f62;
+  background: linear-gradient(to right, #32bda4, #256f62);
 }
 .body .navigation.stiky-nav .navbar #mainmenu ul .nav-item .nav-link::before {
-  background: #D31027;
-  background: linear-gradient(to right, #EA384D, #D31027);
+  background: #256f62;
+  background: linear-gradient(to right, #32bda4, #256f62);
 }
 .body .footer {
   position: relative;

@@ -17,10 +17,13 @@ h6,
 .faq .accordion .panel-title,
 .feature .feature-box .details .title,
 .whaybest .info .info-title,
-.about .box .inner-box .title,
-.navigation.stiky-nav .navbar #mainmenu ul .nav-item .nav-link
+.about .box .inner-box .title
+
 {
     color: #ffff;
+}
+.navigation.stiky-nav .navbar #mainmenu ul .nav-item .nav-link{
+      color: #1b6eed; 
 }
 
 p,
@@ -96,7 +99,6 @@ i,
 .faq .accordion .panel-title,
 .contact .info-box,
 .contact .contact-form-wrapper,
-.navigation.stiky-nav,
 .subscribe-section .newsletter-form-area input,
 .body .about .box,
 .body .testimonial-area .testimonial-slider .owl-controls .owl-nav div,
@@ -104,6 +106,9 @@ i,
 .home7 .testimonial-area .testimonial-slider .owl-controls .owl-nav div
 {
    background: #032055;
+}
+.navigation.stiky-nav,{
+    background: white;
 }
 
 
