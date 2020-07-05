@@ -1,7 +1,9 @@
 body{
  font-family: 'Montserrat-Regular', sans-serif;   
 }
-
+.container-fluid-nav {
+    padding: 0% 5% 5%;
+}
 
 .container-fluid {
     padding: 7% 5% 5%;
