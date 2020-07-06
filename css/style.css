@@ -12,6 +12,9 @@ h1,h2,h3,h4,h5,h6{
 font-family: 'Montserrat-Bold', sans-serif;
 
 }
+.navbar-brand > img{
+    width: 200px;
+}
 .btn-primary {
     background-color: #1b6eed!important;
     border-color: #1b6eed!important;
@@ -66,11 +69,27 @@ font-family: 'Montserrat-Bold', sans-serif;
     font-size: 4rem;
 }
 
+#fifth-section{
+        background-image: url(../images/pattern.png);
+        background-size: cover;
+        background-position: center center;     
+ }
+.image-character{
+    width: 60%;
+}
+.bg-image2{
+    background-image: url(../images/pattern.png);
+    background-size: cover;
+    background-position: center center;  
+}
 .no-padding{
     padding: 0!important;
 }
 .padd-right{
     padding-right: 15%
+}
+.padd-top-only{
+    padding-top: 30%;
 }
 .padding-side{
     padding: 0 20%;
@@ -216,36 +235,38 @@ textarea:focus {
   .title-image {
   
     position: static;
-   
-
   }
-    .steps{
+    
+.steps{
    width: 100%; 
     position: static;
 
 }
     
-    .title{
+ .title{
          text-align: center;
     }
-    .big-heading{
+.big-heading{
         margin-top: 12%;
          font-size:2.5rem;   
           text-align: center;
     }
-        #first-section{
+#first-section{
       
         background-position: center right;  
 }
-    #second-section{
+#second-section{
            background-image: url(../images/2%20bg.png);
         background-size: cover;
         background-position: center left; 
 }
 
-    .testimonial-text {
+.testimonial-text {
     font-size: 2.5rem;
     line-height: 1.5;
+}
+.navbar-brand > img{
+    width: 180px;
 }
 }
 @media only screen and (max-width: 420px) {
