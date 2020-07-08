@@ -123,6 +123,9 @@ font-family: 'Montserrat-Bold', sans-serif;
 .no-margin{
     margin: 0!important;
 }
+.margin-center{
+    margin: 0 auto;
+}
 .padd-right{
     padding-right: 15%
 }
@@ -137,6 +140,9 @@ font-family: 'Montserrat-Bold', sans-serif;
 }
 .padding-top-bottom{
     padding: 5% 0;
+}
+.padding-bottom{
+    padding: 0 0 5%;
 }
 .card{
     border-radius: 3.25rem;
@@ -279,6 +285,9 @@ textarea:focus {
 }
 .social-icon {
   margin: 20px 10px;
+}
+.black{
+  color: black;
 }
 
 /*-----------------------------
