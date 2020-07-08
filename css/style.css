@@ -16,6 +16,9 @@ font-family: 'Montserrat-Bold', sans-serif;
     background-color: #1b6eed!important;
     border-color: #1b6eed!important;
 }
+.hidden-large{
+display: block;
+}
 /*-----------------------------
 ** Nav Bar
 ------------------------------*/
@@ -91,6 +94,13 @@ font-family: 'Montserrat-Bold', sans-serif;
 }
 .bigger-text{
     font-size: 4rem;
+}
+#banner-section{
+
+}
+ 
+.banner img{
+    height: 600px;
 }
 /*-----------------------------
 ** FIFTH SECTION
@@ -304,6 +314,12 @@ textarea:focus {
 .navbar-brand > img{
     width: 180px;
 }
+.banner img{
+    height: auto;
+}
+ .hidden-small{
+     display: none;
+    }
 }
 @media only screen and (max-width: 420px) {
 
