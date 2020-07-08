@@ -120,6 +120,9 @@ font-family: 'Montserrat-Bold', sans-serif;
 .no-padding{
     padding: 0!important;
 }
+.no-margin{
+    margin: 0!important;
+}
 .padd-right{
     padding-right: 15%
 }
@@ -132,9 +135,15 @@ font-family: 'Montserrat-Bold', sans-serif;
 .padding-top{
     padding: 5% 0;
 }
+.padding-top-bottom{
+    padding: 5% 0;
+}
 .card{
     border-radius: 3.25rem;
     padding: 1.5rem;
+}
+.card-body{
+        padding: 1.25rem 0!important;
 }
 .testimonial-image {
 
@@ -329,10 +338,13 @@ position: static;
 }
 .padd-right{
     padding-right: 0;
-    text-align: justify;
+    text-align: center;
  }
 .margin-auto{
    margin: 0 auto;     
+}
+.padding-top-bottom {
+    padding: 20% 0 5%;
 }
 }
 @media only screen and (max-width: 420px) {
