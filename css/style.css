@@ -16,9 +16,7 @@ font-family: 'Montserrat-Bold', sans-serif;
     background-color: #1b6eed!important;
     border-color: #1b6eed!important;
 }
-.hidden-large{
-display: block;
-}
+
 /*-----------------------------
 ** Nav Bar
 ------------------------------*/
@@ -45,6 +43,7 @@ display: block;
 
 .download-button {
     margin: 5% 3% 5% 0;
+    display: block;
 }
 .title-bold{
     font-weight: 800;
@@ -276,16 +275,21 @@ textarea:focus {
 /*-----------------------------
 ** RESPONSIVE DESIGN
 ------------------------------*/
-@media (max-width: 1028px)  {
+@media only screen and (min-width: 1024px)  {
+.hidden-large{
+display: none;
+}
+}
+@media (max-width: 1023px)  {
 
-  .title-image {
+.title-image {
+position: static;
   
-    position: static;
-  }
+}
     
 .steps{
-   width: 100%; 
-    position: static;
+width: 100%; 
+position: static;
 
 }
     
@@ -318,16 +322,25 @@ textarea:focus {
     height: auto;
 }
  .hidden-small{
-     display: none;
-    }
+    display: none;
+ }
+.btn-primary{
+   margin: 3% auto;     
+}
+.padd-right{
+    padding-right: 0;
+    text-align: justify;
+ }
+.margin-auto{
+   margin: 0 auto;     
+}
 }
 @media only screen and (max-width: 420px) {
 
-
-    .big-heading{
+.big-heading{
          font-size:2.2rem;   
     }
-    .testimonial-text {
+.testimonial-text {
     font-size: 2.2rem;
     line-height: 1.5;
 }
