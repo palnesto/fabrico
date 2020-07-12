@@ -22,6 +22,7 @@ h6 {
 .btn-primary {
 	background-color: #1b6eed!important;
 	border-color: #1b6eed!important;
+    color: #fff!important;
 }
 
 
@@ -55,7 +56,7 @@ h6 {
 
 .download-button {
 	margin: 5% 3% 5% 0;
-	display: block;
+	
 }
 
 .title-bold {
@@ -110,7 +111,7 @@ h6 {
 }
 
 .why-text {
-	line-height: 1.8;
+	line-height: 1.5;
 	text-align: left;
 }
 
@@ -118,11 +119,7 @@ h6 {
 	font-size: 4rem;
 }
 
-#banner-section {}
 
-.banner img {
-	height: 100vh;
-}
 
 
 /*-----------------------------
@@ -167,6 +164,9 @@ h6 {
 
 .padding-side {
 	padding: 0 20%;
+}
+.padding-side10 {
+	padding: 0 10%;
 }
 
 .padding-top {
@@ -220,6 +220,11 @@ h6 {
 	font-size: 3rem;
 	line-height: 1.5;
 }
+
+ .height-text{
+        height: 254px;
+        padding: 10px;
+ }  
 
 
 /* Footer Section */
@@ -390,7 +395,7 @@ textarea:focus {
 	.big-heading {
 		margin-top: 12%;
 		font-size: 2.5rem;
-		text-align: center;
+		
 	}
 	#first-section {
 		background-image: url(../images/1%20bg%20MOBLIE.png);
@@ -432,6 +437,15 @@ textarea:focus {
 		background-image: url(../images/pattern%20%20MOBLIE.png);
 		background-size: cover;
 	}
+   
+    .back-bg-step1 {
+    background-image: none;
+
+   }
+   .height-text{
+        height: 368px;
+    }  
+
 }
 
 @media only screen and (max-width: 420px) {
@@ -442,6 +456,13 @@ textarea:focus {
 		font-size: 2.2rem;
 		line-height: 1.5;
 	}
+    .height-text h5{
+   
+        line-height:1.5;
+    }
+    .height-text{
+        height: 500px;
+    }
 }
 
 @media only screen and (max-width: 320px) {
