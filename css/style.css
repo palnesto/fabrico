@@ -9,6 +9,9 @@ body {
 .container-fluid {
 	padding: 7% 10% 5%;
 }
+.container-fluid1 {
+	padding: 7% 10% 5%;
+}
 
 h1,
 h2,
@@ -445,7 +448,9 @@ textarea:focus {
    .height-text{
         height: 368px;
     }  
-
+    .container-fluid1{
+        padding: 0;
+    }
 }
 
 @media only screen and (max-width: 420px) {
