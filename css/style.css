@@ -10,7 +10,7 @@ body {
 	padding: 7% 10% 5%;
 }
 .container-fluid1 {
-	padding: 7% 10% 5%;
+	padding: 0 10% 5%;
 }
 
 h1,
@@ -193,6 +193,8 @@ h6 {
 	padding: 1.25rem 0!important;
 }
 
+
+
 .testimonial-image {
 	border-radius: 100%;
 	margin: 20px;
@@ -236,6 +238,13 @@ h6 {
 /*-----------------------------
 ** Contact Area Start
 ------------------------------*/
+#resp_block
+{
+    color: #090;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 1em;
+}
 
 .contact {
 	padding: 110px 0px 90px;
@@ -319,12 +328,12 @@ h6 {
 }
 
 .input-field.borderd {
-	border: 1px solid rgba(0, 0, 0, 0.15);
+
 }
 
 .input-field {
 	background: none;
-	border: 1px solid #ffdd99!important;
+	border: 1px solid #ffdd99;
 	color: #dbe2fb;
 }
 
@@ -353,7 +362,11 @@ textarea:focus {
 /*-----------------------------
 ** Contact Area End
 ------------------------------*/
-
+.contact_title
+{
+    text-align:center;
+    margin-bottom: 15px;
+}
 
 /*-----------------------------
 ** FOOTER SECTION
@@ -361,11 +374,12 @@ textarea:focus {
 
 .yellow-section {
 	background-image: url(../images/pattern%202.png);
-	background-size: cover;
+	background-size: contain;
 }
 
 .social-icon {
 	margin: 20px 10px;
+   
 }
 
 .black {
@@ -438,7 +452,7 @@ textarea:focus {
 	}
 	.yellow-section {
 		background-image: url(../images/pattern%20%20MOBLIE.png);
-		background-size: cover;
+		background-size: contain;
 	}
    
     .back-bg-step1 {
@@ -451,6 +465,10 @@ textarea:focus {
     .container-fluid1{
         padding: 0;
     }
+    .social-icon {
+	margin: 20px 10px;
+    font-size: 	1.5625rem;
+}
 }
 
 @media only screen and (max-width: 420px) {
@@ -468,6 +486,7 @@ textarea:focus {
     .height-text{
         height: 500px;
     }
+    
 }
 
 @media only screen and (max-width: 320px) {
@@ -479,3 +498,5 @@ textarea:focus {
 		line-height: 1.5;
 	}
 }
+
+
